@@ -1,0 +1,87 @@
+### GET all blogs
+GET http://localhost:3003/api/blogs
+
+### POST new blog
+
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "This is title",
+    "author": "This is author",
+    "url": "This/is/url",
+    "userId": "61d439a04ef8ff99cb8d91d5",
+    "likes": "101"
+}
+
+###
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+
+asddsa
+
+###
+POST http://localhost:3003/api/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "username",
+    "name": "name",
+    "password": "secret" 
+}
+
+###
+POST http://localhost:3003/api/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "username",
+    "password": "secret"
+}
+
+###
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lIiwiaWQiOiI2MWQ3ODc3NGE0NzI1Y2E3ZmE3MTFmYTAiLCJpYXQiOjE2NDE1MTQ4ODQsImV4cCI6MTY0MTUxODQ4NH0.Ir4HyHskzphI_b_CKmW6ell5BlCaJbSblZdaE8frDOs
+
+{
+    "title": "This is title",
+    "author": "This is author",
+    "url": "This/is/url",
+    "userId": "61d439a04ef8ff99cb8d91d5",
+    "likes": "102"
+}
+
+###
+DELETE http://localhost:3003/api/blogs/61d78774a4725ca7fa711fa1 HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lIiwiaWQiOiI2MWQ3ODc3NGE0NzI1Y2E3ZmE3MTFmYTAiLCJpYXQiOjE2NDE1MTQ4ODQsImV4cCI6MTY0MTUxODQ4NH0.Ir4HyHskzphI_b_CKmW6ell5BlCaJbSblZdaE8frDOs
+
+
+###
+PUT http://localhost:3003/api/blogs/61d78774a4725ca7fa711fa1 HTTP/1.1
+Content-Type: application/json
+
+###
+POST http://localhost:3003/api/blogs HTTP/1.1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJuYW1lIiwiaWQiOiI2MWRjOThmZDA3MzRmYTc5NDgyYWQ0MGQiLCJpYXQiOjE2NDE4NDcyNTEsImV4cCI6MTY0MTg1MDg1MX0.9A09PHYVUp07uJZMYf4gA-Gj5mf1d2TZAhtbT-CmyAQ
+
+{
+        "title": "Type wars",
+        "author": "Robert C. Martin",
+        "url": "http://blog.cleancoder.com/uncle-bob/2016/05/01/TypeWars.html",
+        "likes": "2"
+}
+
+###
+POST http://localhost:3003/api/login HTTP/1.1
+Content-Type: application/json
+
+{
+    "username": "user_for_token",
+    "password": "secret"
+}
+
+###
+DELETE http://localhost:3003/api/blogs/61e5bd40d5e2af8eeb96d19d HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InVzZXJfZm9yX3Rva2VuIiwiaWQiOiI2MWU1YmQ0MGQ1ZTJhZjhlZWI5NmQxOTUiLCJpYXQiOjE2NDI0NDY0NzIsImV4cCI6MTY0MjQ1MDA3Mn0.dRDwP8r8UVWmxBVS3aW_cov-C_4SJgzMcWD6WgVTPBU

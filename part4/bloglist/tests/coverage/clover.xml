@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1642527774290" clover="3.2.0">
+  <project timestamp="1642527774290" name="All files">
+    <metrics statements="154" coveredstatements="154" conditionals="32" coveredconditionals="32" methods="26" coveredmethods="26" elements="212" coveredelements="212" complexity="0" loc="154" ncloc="154" packages="4" files="8" classes="8"/>
+    <package name="bloglist">
+      <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="app.js" path="C:\Users\Jussi\Desktop\koulupaskaa\maisteri\Full Stack\part4\bloglist\app.js">
+        <metrics statements="19" coveredstatements="19" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="16" count="3" type="stmt"/>
+        <line num="17" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="bloglist.controllers">
+      <metrics statements="63" coveredstatements="63" conditionals="16" coveredconditionals="16" methods="11" coveredmethods="11"/>
+      <file name="blogs.js" path="C:\Users\Jussi\Desktop\koulupaskaa\maisteri\Full Stack\part4\bloglist\controllers\blogs.js">
+        <metrics statements="31" coveredstatements="31" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="6"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="24" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="13" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="22" count="5" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
+        <line num="30" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="31" count="2" type="stmt"/>
+        <line num="32" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+        <line num="44" count="3" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="56" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="57" count="1" type="stmt"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="63" count="3" type="stmt"/>
+      </file>
+      <file name="login.js" path="C:\Users\Jussi\Desktop\koulupaskaa\maisteri\Full Stack\part4\bloglist\controllers\login.js">
+        <metrics statements="13" coveredstatements="13" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="8" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+      </file>
+      <file name="users.js" path="C:\Users\Jussi\Desktop\koulupaskaa\maisteri\Full Stack\part4\bloglist\controllers\users.js">
+        <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="9" type="stmt"/>
+        <line num="16" count="9" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="20" count="3" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="22" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="bloglist.models">
+      <metrics statements="33" coveredstatements="33" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+      <file name="blog.js" path="C:\Users\Jussi\Desktop\koulupaskaa\maisteri\Full Stack\part4\bloglist\models\blog.js">
+        <metrics statements="13" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="27" count="3" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="36" count="3" type="stmt"/>
+        <line num="38" count="93" type="stmt"/>
+        <line num="39" count="93" type="stmt"/>
+        <line num="40" count="93" type="stmt"/>
+        <line num="43" count="3" type="stmt"/>
+      </file>
+      <file name="user.js" path="C:\Users\Jussi\Desktop\koulupaskaa\maisteri\Full Stack\part4\bloglist\models\user.js">
+        <metrics statements="20" coveredstatements="20" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="25" type="stmt"/>
+        <line num="36" count="25" type="stmt"/>
+        <line num="41" count="3" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="49" count="3" type="stmt"/>
+        <line num="51" count="61" type="stmt"/>
+        <line num="52" count="61" type="stmt"/>
+        <line num="53" count="61" type="stmt"/>
+        <line num="54" count="61" type="stmt"/>
+        <line num="57" count="3" type="stmt"/>
+        <line num="62" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="bloglist.utils">
+      <metrics statements="39" coveredstatements="39" conditionals="16" coveredconditionals="16" methods="9" coveredmethods="9"/>
+      <file name="logger.js" path="C:\Users\Jussi\Desktop\koulupaskaa\maisteri\Full Stack\part4\bloglist\utils\logger.js">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="68" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="28" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+      <file name="middleware.js" path="C:\Users\Jussi\Desktop\koulupaskaa\maisteri\Full Stack\part4\bloglist\utils\middleware.js">
+        <metrics statements="34" coveredstatements="34" conditionals="16" coveredconditionals="16" methods="7" coveredmethods="7"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="6" count="26" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="26" type="stmt"/>
+        <line num="11" count="47" type="stmt"/>
+        <line num="14" count="3" type="stmt"/>
+        <line num="15" count="3" type="stmt"/>
+        <line num="18" count="3" type="stmt"/>
+        <line num="19" count="27" type="stmt"/>
+        <line num="21" count="27" type="cond" truecount="4" falsecount="0"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="24" count="25" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="11" type="stmt"/>
+        <line num="26" count="11" type="stmt"/>
+        <line num="28" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="31" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="10" type="stmt"/>
+        <line num="34" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="2" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="3" type="stmt"/>
+        <line num="43" count="25" type="stmt"/>
+        <line num="44" count="25" type="stmt"/>
+        <line num="48" count="25" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="52" count="25" type="stmt"/>
+        <line num="53" count="12" type="stmt"/>
+        <line num="56" count="3" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
