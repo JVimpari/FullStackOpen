@@ -1,0 +1,62 @@
+{
+  "name": "bloglist-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/user-event": "^12.6.3",
+    "axios": "^0.21.1",
+    "mongodb": "^4.3.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-hook-form": "^7.25.1",
+    "react-scripts": "^5.0.0",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "cross-env CI=true react-scripts test --verbose",
+    "test-coverage": "rm -rf ./coverage; cross-env CI=true react-scripts test --coverage",
+    "eject": "react-scripts eject",
+    "lint": "eslint .",
+    "cypress:open": "cypress open"
+  },
+  "jest": {
+    "testMatch": [
+      "**/tests/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "**/components/**"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3003",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "cross-env": "^7.0.3",
+    "cypress": "^9.4.1",
+    "eslint": "^8.6.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-react": "^7.28.0",
+    "jest": "^27.4.7"
+  }
+}

@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+}
+
+#messages {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.notification {
+    width: fit-content;
+    color: darkgreen;
+    background-color: darkgray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+   
+.error {
+    width: fit-content;
+    color: darkred;
+    background-color: darkgray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.notification>h3, .error>h3 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.formError {
+    grid-column: 2 / 3;
+    color: darkred;
+}
+
+#loginForm, #createUserForm, #createBlogForm {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
+
+#createUserForm>form, #createBlogForm>form {
+    display: contents;
+}
+
+#createUserForm>form + button, #createBlogForm>form + button{
+    grid-column: 1 / 2;
+}
+
+#loginForm>input, #createUserForm>form>input, #createBlogForm>form>input {
+    width: 20ch;
+}
+
+#renderBlogs {
+    display: inline-grid;
+    list-style-type: none;
+    padding: 0px;
+    border: solid black;
+    border-width: 2px 2px 0px 2px;
+}
+
+#renderBlogs>li {
+    display: grid;
+    grid-template-columns: 2fr 1fr auto;
+    grid-column-gap: 10px;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    
+}
+
+#renderBlogs>li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+.details {
+    grid-column: 1 / 3;
+    list-style-type: none;
+    padding: 0px;
+}
+

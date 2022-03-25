@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Title 1",
+        "author": "Author 1",
+        "url": "http://url_1.com"
+    },
+    {
+        "title": "Title 2",
+        "author": "Author 2",
+        "url": "http://url_2.com"
+    },
+    {
+        "title": "Title 3",
+        "author": "Author 3",
+        "url": "http://url_3.com"
+    }
+]
