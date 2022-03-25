@@ -1,0 +1,84 @@
+### GET phonebook entries
+GET http://localhost:3001/api/persons
+
+### GET how many entries on timestamp
+GET http://localhost:3001/info
+
+### GET single person's valid information by id
+GET http://localhost:3001/api/persons/1
+
+### GET single person's invalid information by id (error test)
+GET http://localhost:3001/api/persons/100
+
+### DELETE single person's valid information by id
+DELETE http://localhost:3001/api/persons/4
+
+### POST new entry with valid information
+POST http://localhost:3001/api/persons/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "asd",
+    "number": "123"
+}
+
+### POST new entry with empty name (error test)
+POST http://localhost:3001/api/persons/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "",
+    "number": "12345678"
+}
+
+### POST new entry with empty number (error test)
+POST http://localhost:3001/api/persons/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "asdasd",
+    "number": "12"
+}
+
+### POST new entry with empty name and number (error test)
+POST http://localhost:3001/api/persons/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "",
+    "number": ""
+}
+
+### POST new entry with duplicate name (error test)
+POST http://localhost:3001/api/persons/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "asd",
+    "number": "12345678"
+}
+
+### PUT modify with valid information
+PUT http://localhost:3001/api/persons/61a4f1ec7842e978b03032d3 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "asd",
+    "number": "+123-456 78"
+}
+
+### PUT modify with invalid id
+PUT http://localhost:3001/api/persons/100 HTTP/1.1
+Content-Type: application/json
+
+{
+    "name": "asd",
+    "number": "123"
+}
+
+### GET correctly formatted invalid id
+GET http://localhost:3001/api/persons/61a42039b4fd4dbc473366d6
+
+
+### GET unknown endpoint error
+GET http://localhost:3001/api/notes

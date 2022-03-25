@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Notification {
+  display: inline-block;
+  color: darkgreen;
+  background-color: darkgray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.Notification>h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.Error {
+  display: inline-block;
+  color: darkred;
+  background-color: darkgray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 5px;
+
+}
+
+.Error>h3 {
+  padding: 0px;
+  margin: 0px;
+}
+
+.person {
+  display: table;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.person li {
+  display: table-row;
+}
+
+.person li div {
+  display: table-cell;
+  padding: 5px 10px 5px;
+}
+
+input {
+  margin: 5px 10px 5px;
+}
+
+form {
+  display: table;
+}
+
+form>div {
+  display: table-row;
+  width: 400px;
+}
+
+form>div>label {
+  display: table-cell;
+  margin: 5px 10px 5px;
+}
+
+form>div>input[type=text] {
+  display: table-cell;
+}
+
+.info {
+  display: table-cell;
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.extra {
+  display: none;
+  float: none;
+}
+
+.info:hover + .extra{
+  display: inline-block;
+  position: absolute;
+  padding: 5px;
+  margin-left: 40px;
+  background-color: lightgray;
+  border: 2px solid gray;
+}
+
+.extralist {
+  list-style-type: disc;
+}
